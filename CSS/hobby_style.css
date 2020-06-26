@@ -1,0 +1,229 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body{
+  margin: 0;
+}
+
+hr{
+  color:lightgray;
+}
+
+.header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 80px;
+  box-shadow: 5px 5px 5px rgba(154, 88, 93, 0.2);
+}
+
+.nav_wrap {
+  width: 1200px;
+  margin: 0 auto;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.home {
+  font-size: 22px;
+  float: left;
+  line-height: 60px;
+  color: #ffbfbf;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Poppins';
+}
+
+.nav {
+  float: right;
+}
+
+.nav a {
+  font-size: 22px;
+  margin-left: 30px;
+  float: left;
+  line-height: 60px;
+  color: #0b514a;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Poppins';
+}
+
+
+
+
+
+.content_div{
+  width: 1200px;
+  margin: 0 auto;
+  height: 2500px;
+}
+
+.section_div{
+  margin-top: 120px;
+}
+
+.content_div h1{
+    font-family: 'Nanum Gothic';
+    text-align: center;
+    font-size: 40px;
+    color:#9ea3ff;
+}
+
+.left_form{
+  margin: 100px auto;
+  width: 100%;
+  height: 400px;
+}
+.left_form_iframe{
+  width: 600px;
+  height: 338px;
+  float: left;
+  margin-right: 50px;
+}
+.left_form_text_wrap{
+  height: 400px;
+  float: left;
+}
+.left_form_text{
+  margin: 80px auto;
+  font-family: 'Nanum Gothic';
+
+}
+.left_form_text>h2{
+  color: #ff8080;
+}
+
+.left_form_text>p{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+.center{
+  text-align: center;
+}
+.btn{
+  color: white;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  border-radius:2px;
+  text-decoration: none;
+}
+
+.right_form{
+  margin: 100px auto;
+  width: 100%;
+  height: 400px;
+}
+.right_form_iframe{
+  width: 600px;
+  height: 338px;
+  float: right;
+  margin-left: 50px;
+}
+.right_form_text_wrap{
+  height: 400px;
+  float: right;
+}
+.right_form_text{
+  margin: 80px auto;
+  font-family: 'Nanum Gothic';
+
+}
+
+.right_form_text>h2{
+  color: #ff8080;
+}
+.right_form_text>p{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+.plan{
+  margin-top: 50px;
+}
+
+
+
+.footer {
+  background: #393939;
+  width: 100%;
+  height: 70px;
+
+}
+
+.footer>p {
+  line-height: 70px;
+  font-family: 'Nanum Gothic';
+  font-size: 15px;
+  text-align: center;
+  color: #9c9c9c;
+}
+
+.food{
+  height: 1500px;
+}
+
+.slider_wrap {
+    width: 80%;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.slider li {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.slider img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*btns*/
+.slider_btn {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 60px;
+    line-height: 57px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 100;
+
+    transition: all 0.1s ease;
+}
+
+.slider_btn:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#next {
+    right: 0px;
+    border-radius: 7px 0px 0px 7px;
+    color: #eee;
+}
+
+#previous {
+    left: 0px;
+    border-radius: 0px 7px 7px 7px;
+    color: #eee;
+}

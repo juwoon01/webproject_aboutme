@@ -3,101 +3,115 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="프로젝트_01">
-	<meta name="keywords" content="HTML5, CSS, JQUERY">
-	
-	<!-- 웹 페이지와 외부 자원간의 관계를 정의, 주로 스타일시트(CSS)파일 링크에 사용됨. -->
-	<link rel="stylesheet" type="text/css" href="../CSS/main.css">
-	
-	<title>WelCome !!</title>
+	<meta name="description" content="자기소개">
+
+	<link rel="stylesheet" type="text/css" href="../CSS/study_style.css">
+
+	<title>안주원의 자기소개</title>
 </head>
 
 <body>
-	<div>
-		<!-- 헤더영역 시작 -->
-		<!-- 사이트의 소개나 네비게이션 등을 표시하는 영역 -->
-		<header class="header">
-			<p>
-				<a href="../index.html">
-					<img src="../Images/homelogo.png" width="70px;">
-				</a>
-				<font color="white">헤더영역 (사진 클릭시 메인홈페이지로 이동)</font>
-			</p>
-			
-			<!-- 네비게이션 영역 시작 -->
-			<!-- 사이트의 네비게이션(메뉴) 항목을 표시 -->
+	<header class="header">
+		<div class="nav_wrap">
+			<a class="home" href="../index.html">ANJUWON</a>
 			<nav class="nav">
-				<a href="../index.html">메인으로</a>
-				<a href="s1.html">첫번째 메뉴</a>
-				<a href="s2.html">두번째 메뉴</a>
-				<a href="s3.html">세번째 메뉴</a>
-				<a href="s4.html">PhotoAlbum</a>
+				<a href="./study.html">STUDY</a>
+				<a href="./hobby.html">HOBBY</a>
+				<a href="./contact.html">CONTACT</a>
+				<a href="./guest.html">GUEST</a>
 			</nav>
-			<!-- 네비게이션 영역 끝 -->
-		</header>
-		<!-- 헤더영역 끝 -->
-	</div>
-	
-	<!-- 콘텐츠 및 섹션 영역 시작 -->
+		</div>
+	</header>
+
+	<section class="blur intro_bg">
+		<div class="welcome">
+			<p>백엔드와 프론트엔드 모두에 관심있는 <br>
+				언젠간 풀스택 프로그래머가 되고싶은 <br>
+				안주원의 공부방입니다.</p>
+		</div>
+	</section>
+
 	<div class="content_div">
-		<article>
-			<header>
-				<h1>가장 좋아하는 책</h1>
-				<p>무협지.</p>
-			</header>
-			
-			<section>
-				<h2>십전제</h2>
-				<img src="../Images/m01.png" alt="십전제">
-				<p>구주천가의 천우진으로 중심으로한 마도전쟁. 10권으로 깔끔하게 내용의 마무<br>리가 이루어짐.</p>
-			</section>
-			
-			<section>
-				<h2>흑도영웅</h2>
-				<img src="../Images/m02.png" alt="흑도영웅">
-				<p>혈검 구양소유의 이야기를 담고 있음. 읽을수록 매력적인 책</p>
-			</section>
-			
-			<section>
-				<h2>무애광검</h2>
-				<img src="../Images/m03.png" alt="무애광검">
-				<p>소무양이 고수로 거듭나는 이야기. 2부는 언제 출간되나?</p>
-			</section>
-		</article>
-		
-		<aside class="aside">
-			<h3>
-				<font color="white";>잡설</font>
-			</h3>
-			<p>
-				<font color="white";>
-					최근에 크리스토퍼 놀란 감독의 다크 나이트 트롤로지를 봤다. 명작이다!!
-					원래 배트맨, 슈퍼맨등의 DC히어로즈는 안 좋아하나 다크나이트 시리즈는 꼭추천한다.<br><br>
-                    참고: 망작 "배트맨 vs 슈퍼맨: 돈 오브 저스티스"와는 다른 영화임
-				</font>
-			</p>
-		</aside>
+
+		<section class="proceeding">
+			<h1>학습 중</h1>
+
+			<div class="left_form">
+				<img class="left_form_img" src="../Images/img_js.jpg">
+				<div class="left_form_text">
+					<h2>Vanilla JavaScript</h2>
+					<p>
+						올해 5월부터 HTML과 CSS에 이어서 바닐라 자바스크립트를 공부하기 시작했습니다. <br>
+						특별한 교재나 유료 강의 없이 Nomad Coders의 무료 강의를 통해 독학하고 있습니다. <br>
+						앞으로 학습하려고 하는 jQuery나 프레임워크들의 기초가 되기 때문에 열심히 학습하려고 합니다.
+					</p>
+				</div>
+			</div>
+
+			<div class="right_form">
+				<img class="right_form_img" src="../Images/img_arduino.jpg">
+				<div class="right_form_text">
+					<h2>Arduino</h2>
+					<p>
+						올해 신청한 학부융합프로그램에 아두이노가 사용될 예정이라 팀원들과 스터디를 시작했습니다. <br>
+						교제와 Doit!에서 제공하는 무료 강의를 통해 학습하고 있습니다. <br>
+						학부융합프로그램에서 필요한 기능들을 모두 사용할 수 있을 정도로 학습할 예정입니다.
+					</p>
+				</div>
+			</div>
+
+			<div class="left_form">
+				<img class="left_form_img" src="../Images/img_ML.jpg">
+				<div class="left_form_text">
+					<h2>Machine Learning</h2>
+					<p>
+						평소 AI에 관심이 있어 Python과 TensorFlow를 조금씩 공부하고 있었습니다.<br>
+						그러던중 마침 학부융합프로그램에서 AI를 사용하기로 하여 본격적으로 공부하게 되었습니다. <br>
+						TensorFlow와 Keras를 통해 응용프로그램을 만드는 수준까지 공부하는것이 목표입니다.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<hr>
+
+		<section class="plan">
+			<h1>학습 예정</h1>
+
+			<div class="left_form">
+				<img class="left_form_img" src="../Images/img_react.png">
+				<div class="left_form_text">
+					<h2>React</h2>
+					<p>
+						바닐라 자바스크립트 학습을 완료한 뒤에는  <br>
+						자바스크립트의 주요 라이브러리인 React를 공부할 예정입니다.
+					</p>
+				</div>
+			</div>
+
+			<div class="right_form">
+				<img class="right_form_img" src="../Images/img_nodejs.png">
+				<div class="right_form_text">
+					<h2>Node.js</h2>
+					<p>
+						서버 공부로는 자바스크립트를 기반으로 하는 Node.js를 학습할 예정입니다.<br>
+						Node.js를 활용하여 CRUD(Create, Read, Update, Delete) 시스템을 만드는 것이 최종 목표입니다.  <br>
+					</p>
+				</div>
+			</div>
+		</section>
+
 	</div>
-	<!-- 콘텐츠 및 섹션 영역 끝 -->
-	<br>
-	
-	<!-- 푸터 영역 시작 -->
-	<div class="footer">
-		<footer>
-			<b>
-				<font color="white";>footer 태그: 사이트의 제작자, 주소, 저작권 정보등을 주로표시</font>
-			</b>
-			<details>
-				<summary>
-					<font color="white";>Copyright</font>
-				</summary>
-				<p>
-					<font color="white";>이 홈페이지의 저작권은 ㅁㅁㅁ 에게~~</font>
-				</p>
-			</details>
-		</footer>
-	</div>
-	<!-- 푸터 영역 끝 -->	
+
+
+
+
+
+	<footer class="footer">
+		<p> Copyright© JuWon An, All rights reserved.</p>
+	</footer>
+
+
 </body>
 
 </html>
