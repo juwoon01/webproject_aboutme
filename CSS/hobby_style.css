@@ -1,12 +1,12 @@
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
-body{
+body {
   margin: 0;
 }
 
-hr{
-  color:lightgray;
+hr {
+  color: lightgray;
 }
 
 .header {
@@ -51,110 +51,108 @@ hr{
   font-family: 'Poppins';
 }
 
-
-
-
-
-.content_div{
+.content_div {
   width: 1200px;
   margin: 0 auto;
-  height: 2500px;
 }
 
-.section_div{
+.section_div {
   margin-top: 120px;
 }
 
-.content_div h1{
-    font-family: 'Nanum Gothic';
-    text-align: center;
-    font-size: 40px;
-    color:#9ea3ff;
+.content_div h1 {
+  font-family: 'Nanum Gothic';
+  text-align: center;
+  font-size: 40px;
+  color: #9ea3ff;
 }
 
-.left_form{
+.left_form {
   margin: 100px auto;
   width: 100%;
   height: 400px;
 }
-.left_form_iframe{
+
+.left_form_iframe {
   width: 600px;
   height: 338px;
   float: left;
   margin-right: 50px;
 }
-.left_form_text_wrap{
+
+.left_form_text_wrap {
   height: 400px;
   float: left;
 }
-.left_form_text{
+
+.left_form_text {
   margin: 80px auto;
   font-family: 'Nanum Gothic';
-
 }
-.left_form_text>h2{
+
+.left_form_text>h2 {
   color: #ff8080;
 }
 
-.left_form_text>p{
+.left_form_text>p {
   line-height: 30px;
   font-size: 18px;
   font-weight: 500;
-
 }
-.center{
+
+.center {
   text-align: center;
 }
-.btn{
+
+.iframe_btn {
   color: white;
   background-color: #dc3545;
   border-color: #dc3545;
-  border-radius:2px;
+  border-radius: 2px;
   text-decoration: none;
 }
 
-.right_form{
+.right_form {
   margin: 100px auto;
   width: 100%;
   height: 400px;
 }
-.right_form_iframe{
+
+.right_form_iframe {
   width: 600px;
   height: 338px;
   float: right;
   margin-left: 50px;
 }
-.right_form_text_wrap{
+
+.right_form_text_wrap {
   height: 400px;
   float: right;
 }
-.right_form_text{
+
+.right_form_text {
   margin: 80px auto;
   font-family: 'Nanum Gothic';
-
 }
 
-.right_form_text>h2{
+.right_form_text>h2 {
   color: #ff8080;
 }
-.right_form_text>p{
+
+.right_form_text>p {
   line-height: 30px;
   font-size: 18px;
   font-weight: 500;
-
 }
 
-.plan{
+.plan {
   margin-top: 50px;
 }
-
-
 
 .footer {
   background: #393939;
   width: 100%;
   height: 70px;
-
 }
 
 .footer>p {
@@ -165,65 +163,80 @@ hr{
   color: #9c9c9c;
 }
 
-.food{
-  height: 1500px;
+.food {
+  height: 700px;
 }
 
 .slider_wrap {
-    width: 80%;
-    height: 600px;
-    position: relative;
-    margin: 0 auto;
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .slider {
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    padding: 0;
+  width: 7000px;
+  height: 100%;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
 }
 
 .slider li {
-    float: left;
-    position: relative;
-    width: 100%;
-    height: 100%;
-
+  float: left;
+  position: relative;
+  width: 1000px;
+  height: 100%;
 }
 
 .slider img {
-    display: block;
-    width: 100%;
-    height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
-/*btns*/
 .slider_btn {
-    position: absolute;
-    top: 50%;
-    width: 50px;
-    height: 60px;
-    line-height: 57px;
-    text-align: center;
-    cursor: pointer;
-    background: rgba(0, 0, 0, 0.1);
-    z-index: 100;
-
-    transition: all 0.1s ease;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 60px;
+  line-height: 57px;
+  text-align: center;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
 .slider_btn:hover {
-    background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 #next {
-    right: 0px;
-    border-radius: 7px 0px 0px 7px;
-    color: #eee;
+  right: 0px;
+  border-radius: 7px 0px 0px 7px;
+  color: #eee;
 }
 
 #previous {
-    left: 0px;
-    border-radius: 0px 7px 7px 7px;
-    color: #eee;
+  left: 0px;
+  border-radius: 0px 7px 7px 7px;
+  color: #eee;
+}
+
+td {
+  padding: 0;
+}
+
+.photo_table {
+  width: 1000px;
+  margin: 10px auto;
+  border-spacing: 20px;
+}
+
+.table_img {
+  width: 320px;
+  height: 320px;
 }

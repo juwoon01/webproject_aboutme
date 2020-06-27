@@ -1,12 +1,12 @@
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
-body{
+body {
   margin: 0;
 }
 
-hr{
-  color:lightgray;
+hr {
+  color: lightgray;
 }
 
 .header {
@@ -51,9 +51,6 @@ hr{
   font-family: 'Poppins';
 }
 
-
-
-
 .intro_bg {
   background-image: url('../Images/study_bg.jpg');
   background-repeat: no-repeat;
@@ -63,9 +60,10 @@ hr{
   height: 92vh;
   margin-top: 80px;
 }
+
 .welcome {
   position: absolute;
-  top:40%;
+  top: 40%;
   left: 37%;
   text-align: center;
 }
@@ -77,30 +75,29 @@ hr{
   color: white;
 }
 
-
-.content_div{
+.content_div {
   width: 1200px;
   margin: 0 auto;
-  height: 2500px;
 }
 
-.proceeding{
+.proceeding {
   margin-top: 120px;
 }
 
-.content_div h1{
-    font-family: 'Nanum Gothic';
-    text-align: center;
-    font-size: 40px;
-    color:#9ea3ff;
+.content_div h1 {
+  font-family: 'Nanum Gothic';
+  text-align: center;
+  font-size: 40px;
+  color: #9ea3ff;
 }
 
-.left_form{
+.left_form {
   margin: 100px auto;
   width: 100%;
   height: 300px;
 }
-.left_form_img{
+
+.left_form_img {
   width: 280px;
   height: 280px;
   float: left;
@@ -108,27 +105,29 @@ hr{
   border-radius: 10%;
   border: 1px solid lightgray;
 }
-.left_form_text{
+
+.left_form_text {
   float: left;
   font-family: 'Nanum Gothic';
 }
-.left_form_text>h2{
+
+.left_form_text>h2 {
   color: #ff8080;
 }
 
-.left_form_text>p{
+.left_form_text>p {
   line-height: 30px;
   font-size: 18px;
   font-weight: 500;
-
 }
 
-.right_form{
+.right_form {
   margin: 100px auto;
   width: 100%;
   height: 300px;
 }
-.right_form_img{
+
+.right_form_img {
   width: 280px;
   height: 280px;
   float: right;
@@ -136,34 +135,51 @@ hr{
   border-radius: 10%;
   border: 1px solid lightgray;
 }
-.right_form_text{
+
+.right_form_text {
   float: right;
-  font-family:'Nanum Gothic';
+  font-family: 'Nanum Gothic';
 }
 
-.right_form_text>h2{
+.right_form_text>h2 {
   color: #ff8080;
 }
-.right_form_text>p{
+
+.right_form_text>p {
   line-height: 30px;
   font-size: 18px;
   font-weight: 500;
-
 }
 
-
-
-.plan{
+.plan {
   margin-top: 50px;
 }
 
+.ps {
+  height: 1000px;
+}
 
+.ps h2 {
+  color: #ff8080;
+}
+
+.js-toDoForm {
+  text-align: center;
+}
+
+.ps_btn {
+  background-color: #0b514a;
+  margin-right: 10px;
+  margin-left: 5px;
+  color: white;
+  border-color: #0b514a;
+  border-radius: 2px;
+}
 
 .footer {
   background: #393939;
   width: 100%;
   height: 70px;
-
 }
 
 .footer>p {
